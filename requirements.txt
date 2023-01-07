@@ -1,0 +1,12 @@
+pandas
+numpy
+warnings
+re
+nltk
+WordNetLemmatizer
+TfidiVectorizer
+SMOTE
+train_test_split
+XGBClassifier
+classification_report
+pickle
