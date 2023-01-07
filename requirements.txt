@@ -1,6 +1,5 @@
 pandas
 numpy
-warnings
 re
 nltk
 WordNetLemmatizer
