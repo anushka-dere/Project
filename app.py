@@ -8,8 +8,8 @@ lemmatizer = nltk.stem.WordNetLemmatizer()
 from nltk.corpus import stopwords
 
 # load the model from disk
-clf = pickle.load(open('xgb.pkl', 'rb'))
-cv=pickle.load(open('tfidf.pkl','rb'))
+clf = pickle.load(open('xgb.sav', 'rb'))
+cv=pickle.load(open('tfidf.sav','rb'))
 app = Flask(__name__)
 def preprocess(text):
     
