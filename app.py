@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 # load the model from disk
 clf = pickle.load(open('xgb.sav', 'rb'))
 cv=pickle.load(open('tfidf.sav','rb'))
-app = Flask(__name__)
+app = Streamlit(__name__)
 def preprocess(text):
     
     # Convert text to lowercase
