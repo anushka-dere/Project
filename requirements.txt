@@ -10,3 +10,7 @@ train_test_split
 XGBClassifier
 classification_report
 pickle
+streamlit
+LogisticRegression
+dump
+load
